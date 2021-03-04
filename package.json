@@ -1,0 +1,42 @@
+{
+  "name": "cli",
+  "version": "0.0.1",
+  "description": "a cli tool for quickly writing `console-app`、` plug-in `、`module`",
+  "keywords": [
+    "cli",
+    "module",
+    "tool"
+  ],
+  "main": "bin/cli.js",
+  "bin": {
+    "cli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "semver": "^7.3.2",
+    "shelljs": "^0.8.4",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wayley/cli.git"
+  },
+  "author": {
+    "name": "Robben Wayley",
+    "email": "hb_wangzheng@163.com"
+  },
+  "license": "Apache License 2.0",
+  "homepage": "https://github.com/Wayley/cli#readme",
+  "bugs": {
+    "url": "https://github.com/Wayley/cli/issues"
+  },
+  "engines": {
+    "node": "^10.12.0 || ^12.0.0 || >= 14.0.0"
+  }
+}
